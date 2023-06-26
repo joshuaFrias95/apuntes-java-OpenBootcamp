@@ -33,7 +33,7 @@ public class Mapas {
         System.out.println(map);
 
         // Recorriendo un HashMap
-        for (Map.Entry elemento : map.entrySet()) {
+        for (Map.Entry<String, Integer> elemento : map.entrySet()) {
             // Obteniendo la clave
             System.out.println("Elemento clave es " + elemento.getKey());
             // Obteniendo el valor
